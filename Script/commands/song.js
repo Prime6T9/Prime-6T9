@@ -12,7 +12,7 @@ module.exports.config = {
     aliases: [ "music", "play"],
     credits: "dipto",
     countDown: 5,
-    hasPermssion: 0,
+    hasPermssion: 2,
     description: "Download audio from YouTube",
     commandCategory: "media",
     usages: "{pn} [<song name>|<song link>]:"+ "\n   Example:"+"\n{pn} chipi chipi chapa chapa"
