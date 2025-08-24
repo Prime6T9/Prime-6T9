@@ -11,7 +11,7 @@ module.exports.config = {
   name: "autochat",
   version: "4.0.0",
   hasPermssion: 2,
-  credits: "Ferdous Wahid (edited by Ridoy)",
+  credits: "SHUVO (edited by Ridoy)",
   description: "Auto reply only if the FULL message matches a keyword (Admin/Public mode)",
   commandCategory: "fun",
   usages: "autochat [on/off/admin/public]",
@@ -27,7 +27,7 @@ const keywordList = [
   { keywords: ["hello", "হেলো", "hi", "হাই"], reply: "হ্যালো! 😊 কেমন আছো?" },
   { keywords: ["bye", "বাই", "বায়", "বিদায়"], reply: "আবার দেখা হবে! 👋" },
   { keywords: ["kemon acho?", "kmn acho?", "kemon aso?", "kmn aso?", "কেমন আছো?", "কেমন আছেন?"], reply: "আলহামদুলিল্লাহ 💌✨, তুমি কেমন আছো?" },
-  { keywords: ["tumi ke", "তুমি কে", "tmi ke", "tui ke", "তুই কে"], reply: "আমি একটা বট 🤖 তোমার সাহায্যে আছি, ফেরদৌস ওয়াহিদ ভাই আমাকে বানিয়েছে 😉🫶" },
+  { keywords: ["tumi ke", "তুমি কে", "tmi ke", "tui ke", "তুই কে"], reply: "আমি একটা বট 🤖 তোমার সাহায্যে আছি, শুভ আমাকে বানিয়েছে 😉🫶" },
   { keywords: ["love you", "লাভ ইউ"], reply: "তোমাকেও লাভিউ 😋💜" },
   { keywords: ["hmm"], reply: "hmm means, Hey marry me 😁💜" },
   { keywords: ["cdi", "chudi", "cudi"], reply: "tomake Cdi 💋" },
@@ -36,11 +36,11 @@ const keywordList = [
   { keywords: ["tata", "tatah", "টাটা"], reply: "Tatah😚✨" },
   { keywords: ["thanos"], reply: "চুটকি দিয়ে ইউনিভার্সের পুঁটকি মেরে দিসিলো সেই হালায় না? 🙂" },
   { keywords: ["hm", "hum", "হুম"], reply: "hmm er reply ki dibo jana nei 😷" },
-  { keywords: ["wahid", "wahid koi"], reply: "Busy ache hoyto, Inbox koro 👉 : https://m.me/ami.wahid.bolchi 💌" },
+  { keywords: ["wahid", "Shuvo"], reply: "Busy ache hoyto, Inbox koro 👉 : @স্বপ্নের রাজকুমার 💌" },
   { keywords: ["thu", "থু"], reply: "তোর মুখে পড়ুক 😌" },
   { keywords: ["Assalamualaikum", "আসসালামু আলাইকুম"], reply: "Walaikumus salam warah matullahi wabrah katuh 🖤✨" },
   { keywords: ["salam"], reply: "salam na bole, bolo Assalamualaikum 💌. sundor vabe salam dite hoy 🖤✨" },
-  { keywords: ["admin", "admin ke?", " বট কার", "bot kar", "admin ke", "kar bot"], reply: "Admin/Owner: 𝐅𝐞𝐫𝐝𝐨𝐮𝐬 𝐖𝐚𝐡𝐢𝐝 💜✨. 𝚃𝚢𝚙𝚎 𝙰𝚍𝚖𝚒𝚗 𝚏𝚋 𝚏𝚘𝚛 𝚏𝚊𝚌𝚎𝚋𝚘𝚘𝚔 𝚕𝚒𝚗𝚔 & 𝙰𝚍𝚖𝚒𝚗 𝚒𝚗𝚜𝚝𝚊 𝚏𝚘𝚛 𝚑𝚒𝚜 𝚒𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖 𝚊𝚌𝚌𝚘𝚞𝚗𝚝..! 😉💜" },
+  { keywords: ["admin", "admin ke?", " বট কার", "bot kar", "admin ke", "kar bot"], reply: "Admin/Owner: SHUVO 💜✨. 𝚃𝚢𝚙𝚎 𝙰𝚍𝚖𝚒𝚗 𝚏𝚋 𝚏𝚘𝚛 𝚏𝚊𝚌𝚎𝚋𝚘𝚘𝚔 𝚕𝚒𝚗𝚔 & 𝙰𝚍𝚖𝚒𝚗 𝚒𝚗𝚜𝚝𝚊 𝚏𝚘𝚛 𝚑𝚒𝚜 𝚒𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖 𝚊𝚌𝚌𝚘𝚞𝚗𝚝..! 😉💜" },
   { keywords: ["vondo", "ভন্ড"], reply: "Tumi Vondooo 🤡" },
   { keywords: ["ironman"], reply: "He loves us 3000 💌" },
   { keywords: ["mor", "dure giye mor", "moren", "মর"], reply: "Tui dure jaya mor 💀" },
@@ -105,7 +105,9 @@ const keywordList = [
   { keywords: ["Omg"], reply: "Say Omaygotto" },
   { keywords: ["🥵"], reply: "Horny mood e nak 🙂i" },
   { keywords: ["Ayhy", "Ayhyeee"], reply: "Kire ki hois 😐e" },
-  { keywords: ["koi jao", "koi jas?"], replt: "Morte ☺️" }
+  { keywords: ["koi jao", "koi jas?"], replt: "Morte ☺️" },
+  { keywords: ["Ai er muhke Namaj er kotha manai nah"], reply: "Amke onk jon e dekhi Posondho kore Nah 😌💔" },
+  { keywords: ["Atik", "kire atik"], reply: "আতিক এর Gf এর নাম বিথি 🤫🙂" }
   
   ];
 // <<<<<< Admin UID List >>>>>>
