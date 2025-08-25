@@ -109,8 +109,24 @@ const keywordList = [
   { keywords: ["Ai er muhke Namaj er kotha manai nah"], reply: "Amke onk jon e dekhi Posondho kore Nah 😌💔" },
   { keywords: ["Atik", "kire atik"], reply: "আতিক এর Gf এর নাম বিথি 🤫🙂" },
   { keywords: ["Riya", "Riyar baccha"], reply: "রিয়ার Bf ছিলো মুরাদ এখন আর নেই একসময় ছিলো রিয়ার এখন মুরাদ সবার 🤣😚" },
-  { keywords: ["Kuttar baccha", "কুত্তার বাচ্চা", "শুভ কুত্তার বাচ্চা", "Shuvo Kuttar baccha"], reply: "তুই কুত্তার বাচ্চা, তোর চোদ্দো গুষ্টি, কুত্তার বাচ্চা 🤬🔪" },
-  { keywords: ["Reshmi", "Lamiya", "lamu", "রেশমী", "রেশমি"], reply: "রেশমী আমার বস শুভর বউ, শুভ রেশমীকে অনেক ভালোবাসে ☺️🥰💝" }
+  { keywords: ["Kuttar baccha", "কুত্তার বাচ্চা", "শুভ কুত্তার বাচ্চা", "Shuvo Kuttar baccha", "Kb", "Chup kb"], reply: "তুই কুত্তার বাচ্চা, তোর চোদ্দো গুষ্টি, কুত্তার বাচ্চা 🤬🔪" },
+  { keywords: ["Reshmi", "Lamiya", "lamu", "রেশমী", "রেশমি"], reply: "রেশমী আমার বস শুভর বউ, শুভ রেশমীকে অনেক ভালোবাসে ☺️🥰💝" },
+  { keywords: ["😒", "😑", "😐🔪", "😑🔪", "🤫", "🤨"], reply: "Mukhe Bang Dhukse Nki 🐸😂" },
+  { keywords: ["Ki korchi ami", "ami ki korchi", "Ami kisu korini"], reply: "Beyadop Tmi kicu koroni 😡" },
+  { keywords: ["jani nah", "Jani nah ami", "Jani nah To ami", "jni nah", "jni nah ami"], reply: "Tmi Abr kon bal Jano 😒🔪" },
+  { keywords: ["ki hoyse", "blo ki hoyse", "Shuvo ki hoyse blo"], reply: "Are kisu hiyni" },
+  { keywords: ["Reshmir best frnd ke"], reply: "Amr boss Shuvo Reshmir Best frnd, Reshmi Meye Ta onk valo ekta Meye 😇💝💗" },
+  { keywords: ["Shuvor Best frnd ke", "Shuvo kar ki hoy", "Shuvor Gf er nam ki"], reply: "Shuvor Best frnd ase Nam Reshmi, Shuvo Reshmike Onk Onk Valo Base Tmi chaile Short cart e Gf o Ba Shuvor Bow Bolte Paro 😇💗🥰" },
+  { keywords: ["Shuvor ki hoyse Jano Tmi", "Shuvor Ki hoyse Jano Tumi"], reply: "Shuvo onk oustho Shuvor Jonno Doya korben 😔🤲❤️‍🩹" },
+  { keywords: ["Shuvo kmn chele", "Shuvo kmn", "Shuvo ke Tumr kmne mone hoy"], reply: "Shuvo onk valo ekta chele, Kintu Sby Shuvo ke Kharap vabe 😅💔" },
+  { keywords: ["Ai meye ke", "Ai id kar"], reply: "শুভ আমাকে বানিয়েছে আমাকে দিয়ে তোমারা গান শুনতে পারবে ছবি এডিট করতে পারবে আরো অনেক কিছু 🤫" },
+  { keywords: ["Khabr khaico", "khabar khaiso tmi", "khabar khaiso Jan"], reply: "Ami Thik Motu Khabar oushud khai Tmr best frnd Thik Motu oushud Ar khabar khai nah Ami kintu ore Gali dibo Asob er jonno 😡🔪" },
+  { keywords: ["ki hoyse jano", "ki hoyce jano"], reply: "Beyadop Nah bolle koi theke Janbo 😒😒" },
+  { keywords: ["Suno", "sun", "son", "suno go", "sunba nah"], reply: "শুনতেছি তো 😉" },
+  { keywords: ["Bolbo nah", "bolbo na", "Bollam Tu bolbo nah"], reply: "Thappor chinos Kn bolbi nah Beyadop 😤🔪" },
+  { keywords: ["Tmke bolbo kno", "Tmke bolbo nah"], reply: "Tmr khobor Ache suytan 😤" },
+  { keywords: ["Shuvor Baccha", "Shuvor Baccha re"], reply: "Shuvor Baccha Tmke dake 😃" },
+  { keywords: ["Reshmir baccha 😑", "Reshmir baccha", "Reshmir baccha"], reply: " Reshmir baccha Tmr best frnd Shuvo Rage Tmke Daktise Go Sunooo 🤭🤭" }
   
   ];
 // <<<<<< Admin UID List >>>>>>
