@@ -36,11 +36,11 @@ const keywordList = [
   { keywords: ["tata", "tatah", "টাটা"], reply: "Tatah😚✨" },
   { keywords: ["thanos"], reply: "চুটকি দিয়ে ইউনিভার্সের পুঁটকি মেরে দিসিলো সেই হালায় না? 🙂" },
   { keywords: ["hm", "hum", "হুম"], reply: "hmm er reply ki dibo jana nei 😷" },
-  { keywords: ["wahid", "wahid koi"], reply: "Busy ache hoyto, Inbox koro 👉 : https://m.me/ami.wahid.bolchi 💌" },
+  { keywords: ["Shuvo", "Shuvo koi", "Kire Shuvo"], reply: "Busy ache hoyto, Inbox koro 👉 : @স্বপ্নের রাজকুমার 💌" },
   { keywords: ["thu", "থু"], reply: "তোর মুখে পড়ুক 😌" },
   { keywords: ["Assalamualaikum", "আসসালামু আলাইকুম"], reply: "Walaikumus salam warah matullahi wabrah katuh 🖤✨" },
   { keywords: ["salam"], reply: "salam na bole, bolo Assalamualaikum 💌. sundor vabe salam dite hoy 🖤✨" },
-  { keywords: ["admin", "admin ke?", " বট কার", "bot kar", "admin ke", "kar bot"], reply: "Admin/Owner: 𝐅𝐞𝐫𝐝𝐨𝐮𝐬 𝐖𝐚𝐡𝐢𝐝 💜✨. 𝚃𝚢𝚙𝚎 𝙰𝚍𝚖𝚒𝚗 𝚏𝚋 𝚏𝚘𝚛 𝚏𝚊𝚌𝚎𝚋𝚘𝚘𝚔 𝚕𝚒𝚗𝚔 & 𝙰𝚍𝚖𝚒𝚗 𝚒𝚗𝚜𝚝𝚊 𝚏𝚘𝚛 𝚑𝚒𝚜 𝚒𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖 𝚊𝚌𝚌𝚘𝚞𝚗𝚝..! 😉💜" },
+  { keywords: ["admin", "admin ke?", " বট কার", "bot kar", "admin ke", "kar bot"], reply: "Admin/Owner: SHUVO 💜✨. 𝚃𝚢𝚙𝚎 𝙰𝚍𝚖𝚒𝚗 𝚏𝚋 𝚏𝚘𝚛 𝚏𝚊𝚌𝚎𝚋𝚘𝚘𝚔 𝚕𝚒𝚗𝚔 & 𝙰𝚍𝚖𝚒𝚗 𝚒𝚗𝚜𝚝𝚊 𝚏𝚘𝚛 𝚑𝚒𝚜 𝚒𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖 𝚊𝚌𝚌𝚘𝚞𝚗𝚝..! 😉💜" },
   { keywords: ["vondo", "ভন্ড"], reply: "Tumi Vondooo 🤡" },
   { keywords: ["ironman"], reply: "He loves us 3000 💌" },
   { keywords: ["mor", "dure giye mor", "moren", "মর"], reply: "Tui dure jaya mor 💀" },
@@ -69,8 +69,7 @@ const keywordList = [
   { keywords: ["mara khao", "মারা খাও"], reply: "tumi khao 😽, ami esob khaina..!" },
   { keywords: ["mara khan", "মারা খান"], reply: "Apnake khawate chai 🫦..!" },
   { keywords: ["bot gay", "বট গে", "গে বট", "gay bot"], reply: "Asho check koro, tmk dekhai 💋❤️‍🔥" },
-  { keywords: ["Admin fb"], reply: "https://www.facebook.com/share/161ASSLBZ5/" },
-  { keywords: ["Admin insta"], reply: "https://www.instagram.com/wahid_onthe_way?igsh=MW9kN3AwcGE2bjl4Mw=" },
+  { keywords: ["Admin fb"], reply: "https://www.facebook.com/SHUVOHASSAN66" },
   { keywords: ["bal bot", "baler bot", "বল বট", "বালের বট"], reply: "তুই নিজে বাল, থুক্কু আবাল 😆" },
   { keywords: ["kire bot", "কিরে বট", "ওই বট", "oi bot"], reply: "Kisse chillas keno?..!🫤" },
   { keywords: ["কিরে", "ওই কিরে", "kire", "oi kire"], reply: "Kire bhai, ki hoise 🙂 🔪" },
@@ -104,8 +103,9 @@ const keywordList = [
   { keywords: ["bujhso?", "buccho?"], reply: "Bujhte chaina" },
   { keywords: ["Omg"], reply: "Say Omaygotto" },
   { keywords: ["🥵"], reply: "Horny mood e nak 🙂i" },
-  { keywords: ["Ayhy", "Ayhyeee"], reply: "Kire ki hois 😐e" },
-  { keywords: ["koi jao", "koi jas?"], replt: "Morte ☺️" }
+  { keywords: ["Ayhy", "Ayhyeee"], reply: "Kire ki hoise 😐" },
+  { keywords: ["koi jao", "koi jas?"], replt: "Morte ☺️" },
+  { keywords: ["😐", "😒", "😑", "😫", "😙", "😚"], reply: "Mukhe Bang Dhukse Naki 🐸🤣" }         
   
   ];
 // <<<<<< Admin UID List >>>>>>
